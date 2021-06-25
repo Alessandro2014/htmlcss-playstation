@@ -13,7 +13,7 @@
                 <!-- HEADER -->
     <header class="position-relative">
 
-        <div class="position-fixed w-100">
+        <div class="position-fixed top-0 start-0 w-100">
             <div class="header-top bg-black text-end pe-2">
                 <img src="./img/sony_logo.svg" alt="" width="80">
             </div>
@@ -22,28 +22,28 @@
                 <a class="navbar-brand" href="#">
                     <img src="./img/play_logo.svg" alt="" width="60" height="48">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Giochi <i class="bi bi-chevron-down"></i></a>
+                            <a class="nav-link text-dark" aria-current="page" href="#">Giochi <i class="bi bi-chevron-down"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Hardware <i class="bi bi-chevron-down"></i></a>
+                            <a class="nav-link text-dark" href="#">Hardware <i class="bi bi-chevron-down"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Servizi <i class="bi bi-chevron-down"></i></a>
+                            <a class="nav-link text-dark" href="#" tabindex="-1" aria-disabled="true">Servizi <i class="bi bi-chevron-down"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Novità <i class="bi bi-chevron-down"></i></a>
+                            <a class="nav-link text-dark" aria-current="page" href="#">Novità <i class="bi bi-chevron-down"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Fai acquisti <i class="bi bi-chevron-down"></i></a>
+                            <a class="nav-link text-dark" href="#">Fai acquisti <i class="bi bi-chevron-down"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Supporto <i class="bi bi-chevron-down"></i></a>
+                            <a class="nav-link text-dark" href="#" tabindex="-1" aria-disabled="true">Supporto <i class="bi bi-chevron-down"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -51,7 +51,7 @@
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">My PlayStation <i class="bi bi-chevron-down"></i></a>
+                            <a class="nav-link text-dark" aria-current="page" href="#">My PlayStation <i class="bi bi-chevron-down"></i></a>
                         </li>
                         <li class="nav-item">
                             <a class="btn rounded-pill bg-btt-login text-white mx-2" href="#">Accedi</a>
@@ -66,66 +66,74 @@
     </header>
     
     <main>
-            <!-- SECTION HERO 1 -->
+            <!-- SECTION HERO 1             sistemare img -->
         <section>
             <div id="hero-1">
-
-            <div class="container pt-5">        
-                <div class="row mt-5 h-500 border-3">
-                    <div class="align-self-end mb-4 col-lx-12 col-xxl-5">
-                        <div class="p-5">IMMAGINE</div>
-                        <h1>prova</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, repudiandae recusandae minima officia fuga iure numquam aliquid dicta possimus id aut impedit voluptatem accusantium officiis provident corporis, fugit ex maxime.</p>
-                        <a class="btn btn-md btn-primary" href="#">Acquista ora</a>
+                <div class="container text-jumbo-1">        
+                    <div class="row text-white fs-5">
+                        <div class="col-12 align-self-end">
+                            <img class="w-50" src="./img/returnal-hero-banner-logo.png" alt="">
+                        </div>
+                        <div class="col-12 col-xxl-5 align-self-end">
+                            <h1 class="mb-5">Rompi il cerchio</h1>
+                            <p>Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5</p>
+                            <a class="btn btn-md rounded-pill bg-btt-shop my-5" href="#">Acquista ora</a>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
-        </div>
-
         </section>
 
             <!-- SECTION GAMES 1 -->
         <section class="container">
-            <div class="row mt-3">
-                <figure class="border-1 rounded-2 col-6 col-sm-4 col-lg-2">col-prova</figure>
-                <figure class="border-2 rounded-2 col-6 col-sm-4 col-lg-2">col-prova</figure>
-                <figure class="border-3 rounded-2 col-6 col-sm-4 col-lg-2">col-prova</figure>
-                <figure class="border-1 rounded-2 col-6 col-sm-4 col-lg-2">col-prova</figure>
-                <figure class="border-1 rounded-2 col-6 col-sm-4 col-lg-2">col-prova</figure>
-                <figure class="border-1 rounded-2 col-6 col-sm-4 col-lg-2">col-prova</figure>
+            <div class="row mt-3 section-games">
+                <figure class="col-6 col-sm-4 col-lg-2"><img class="img-fluid b-radius10" src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></figure>
+                <figure class="col-6 col-sm-4 col-lg-2"><img class="img-fluid b-radius10" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></figure>
+                <figure class="col-6 col-sm-4 col-lg-2"><img class="img-fluid b-radius10" src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></figure>
+                <figure class="col-6 col-sm-4 col-lg-2"><img class="img-fluid b-radius10" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></figure>
+                <figure class="col-6 col-sm-4 col-lg-2"><img class="img-fluid b-radius10" src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></figure>
+                <figure class="col-6 col-sm-4 col-lg-2"><img class="img-fluid b-radius10" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></figure>
             </div>
         </section>
 
             <!-- SECTION CONSOLE 5 -->
-        <section class="container">
-            <div class="row mt-3 g-3">
-                <div class="border-1 h-100 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor autem suscipit maiores rerum consequuntur a! Ratione aliquam consequuntur velit accusantium facilis mollitia optio perspiciatis illum ipsum nam? Nulla, voluptatibus ipsam?</div>
-                <div class="border-2 h-100 col-sm-12 col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit blanditiis unde sit itaque consectetur impedit, eius inventore recusandae sint nobis officiis voluptatibus, nostrum enim est delectus animi. Alias, corporis cupiditate.</div>
-                <div class="border-3 h-100 col- col-sm-12 col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit blanditiis unde sit itaque consectetur impedit, eius inventore recusandae sint nobis officiis voluptatibus, nostrum enim est delectus animi. Alias, corporis cupiditate.</div>
+        <section>
+            <div class="text-center">
+                <h4 class="text-primary text-uppercase fs-6 mt-5">play has no limits</h4>
+                <h2 class="fs-1">Ecco la PlayStation 5</h2>
+                <p class="text-secondary">Tuffati in nuove possibilità di gioco completamente inaspettate</p>
+            </div>
+            <div class="container-fluid">
+                <div class="row mt-5">
+                    <div class="col-12 col-md-5 align-self-center">
+                        <h2 class="fs-1">Ecco la PlayStation 5</h2>
+                        <p class="text-secondary">Sperimenta la nuova generazione di incredibili giochi PlayStation.</p>
+                        <a class="btn btn-md rounded-pill bg-btt-info mt-3" href="#">Maggiori informazioni</a>
+                    </div>
+                    <div class="col-12 col-md-7"><img class="img-fluid" src="./img/playstation-5-thumb.png" alt=""></div>
 
-                <figure class="figure col-sm-4 offset-md-1 col-md-2">
-                    <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" class="figure-img img-fluid rounded-1" alt="tony">
-                    <figcaption class="figure-caption">Tony Hawk's<i class="bi bi-badge-tm-fill"></i> Pro Skater<i class="bi bi-badge-tm-fill"></i> 1+2</figcaption>
-                </figure>
-                <figure class="figure col-sm-4 col-md-2">
-                    <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" class="figure-img img-fluid rounded-1" alt="crash">
-                    <figcaption class="figure-caption">Crash Bandicoot 4: It's About Time</figcaption>
-                </figure>
-                <figure class="figure col-sm-4 col-md-2">
-                    <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" class="figure-img img-fluid rounded-1" alt="tony">
-                    <figcaption class="figure-caption">Tony Hawk's<i class="bi bi-badge-tm-fill"></i> Pro Skater<i class="bi bi-badge-tm-fill"></i> 1+2</figcaption>
-                </figure>
-                <figure class="figure col-sm-4 col-md-2">
-                    <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" class="figure-img img-fluid rounded-1" alt="crash">
-                    <figcaption class="figure-caption">Crash Bandicoot 4: It's About Time</figcaption>
-                </figure>
-                <figure class="figure col-sm-4 col-md-2">
-                    <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" class="figure-img img-fluid rounded-1" alt="tony">
-                    <figcaption class="figure-caption">Tony Hawk's<i class="bi bi-badge-tm-fill"></i> Pro Skater<i class="bi bi-badge-tm-fill"></i> 1+2</figcaption>
-                </figure>
-                
-
-
+                    <figure class="figure col-sm-4 offset-md-1 col-md-2">
+                        <img src="./img/playstation-5-thumb.png" class="figure-img img-fluid rounded-1" alt="tony">
+                        <figcaption class="figure-caption">Tony Hawk's<i class="bi bi-badge-tm-fill"></i> Pro Skater<i class="bi bi-badge-tm-fill"></i> 1+2</figcaption>
+                    </figure>
+                    <figure class="figure col-sm-4 col-md-2">
+                        <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" class="figure-img img-fluid rounded-1" alt="crash">
+                        <figcaption class="figure-caption">Crash Bandicoot 4: It's About Time</figcaption>
+                    </figure>
+                    <figure class="figure col-sm-4 col-md-2">
+                        <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" class="figure-img img-fluid rounded-1" alt="tony">
+                        <figcaption class="figure-caption">Tony Hawk's<i class="bi bi-badge-tm-fill"></i> Pro Skater<i class="bi bi-badge-tm-fill"></i> 1+2</figcaption>
+                    </figure>
+                    <figure class="figure col-sm-4 col-md-2">
+                        <img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" class="figure-img img-fluid rounded-1" alt="crash">
+                        <figcaption class="figure-caption">Crash Bandicoot 4: It's About Time</figcaption>
+                    </figure>
+                    <figure class="figure col-sm-4 col-md-2">
+                        <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" class="figure-img img-fluid rounded-1" alt="tony">
+                        <figcaption class="figure-caption">Tony Hawk's<i class="bi bi-badge-tm-fill"></i> Pro Skater<i class="bi bi-badge-tm-fill"></i> 1+2</figcaption>
+                    </figure>
+                </div>
             </div>
         </section>
 
