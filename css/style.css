@@ -8,6 +8,7 @@
 
 .border-3 {
     border: 1px solid green;
+    background-color: gray;
 }
 
 .h-100 {
@@ -17,3 +18,58 @@
 .h-500 {
     height: 500px;
 }
+
+    /* COLORS */
+
+.bg-black {
+    background-color: #000;
+}
+.bg-section-games {
+    background-color: #1F1F1F;
+}
+
+.bg-section-upgrade {
+    background-color: #BEBCBB;
+}
+
+.bg-section-now {
+    background-color: #161C3B;
+}
+
+.bg-footer {
+    background-color: #00439C;
+}
+
+.bg-btt-login {
+    background-color: #363636;
+}
+
+.bg-btt-info {
+    background-color: #2D64E6;
+    background-color: #363636;
+}
+
+.bg-btt-shop {
+    background-color: #CD3D0F;
+}
+
+/* HEADER */
+
+.header-top img {
+    height: 34px;
+}
+
+.header-bottom {
+    background-color: white;
+}
+
+header nav ul li i {
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+#hero-1 {
+    background-image: "(../img/)";
+}
+
+

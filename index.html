@@ -11,20 +11,67 @@
 </head>
 <body>
                 <!-- HEADER -->
-    <header>
-        <div>
-            <div class="header-top border-1">header top</div>
-            <div class="header-bottom border-2">header bottom</div>
+    <header class="position-relative">
+
+        <div class="position-fixed w-100">
+            <div class="header-top bg-black text-end pe-2">
+                <img src="./img/sony_logo.svg" alt="" width="80">
+            </div>
+
+            <nav class="header-bottom container-fluid navbar navbar-expand-xxl navbar-light bg-white">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/play_logo.svg" alt="" width="60" height="48">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Giochi <i class="bi bi-chevron-down"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Hardware <i class="bi bi-chevron-down"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Servizi <i class="bi bi-chevron-down"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Novità <i class="bi bi-chevron-down"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fai acquisti <i class="bi bi-chevron-down"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Supporto <i class="bi bi-chevron-down"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">My PlayStation <i class="bi bi-chevron-down"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn rounded-pill bg-btt-login text-white mx-2" href="#">Accedi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pt-1 mx-2" href="#" tabindex="-1" aria-disabled="true"><img src="./img/lens.svg" alt="" height="25"></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav> 
         </div>
     </header>
-
+    
     <main>
             <!-- SECTION HERO 1 -->
         <section>
-                        <div><!--BACKGROUND IMAGE--></div>
+            <div id="hero-1">
 
-            <div class="container">        
-                <div class="row  h-500 border-3">
+            <div class="container pt-5">        
+                <div class="row mt-5 h-500 border-3">
                     <div class="align-self-end mb-4 col-lx-12 col-xxl-5">
                         <div class="p-5">IMMAGINE</div>
                         <h1>prova</h1>
@@ -33,6 +80,7 @@
                     </div>
                 </div>
             </div>
+        </div>
 
         </section>
 
@@ -101,9 +149,11 @@
             <!-- SECTION GAMES 2 -->
         <section class="bg-color">
             <div class="container">
-                <h3>Nuove uscite</h3>
-                <p>Giochi incredibili per PS4 e PS5 disponibili ora</p>
                 <div class="row">
+                    <div>
+                        <h3>Nuove uscite</h3>
+                        <p>Giochi incredibili per PS4 e PS5 disponibili ora</p>
+                    </div>
                     <figure class="figure col-6 col-sm-4 col-xxl-2">
                         <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" class="figure-img img-fluid rounded-1" alt="tony">
                         <figcaption class="figure-caption">Tony Hawk's<i class="bi bi-badge-tm-fill"></i> Pro Skater<i class="bi bi-badge-tm-fill"></i> 1+2</figcaption>
@@ -187,6 +237,7 @@
         <section class=" container text-center">
             <h2>SEZIONE DISCOUNT</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestiae delectus, possimus eum incidunt aspernatur quo quos? Id voluptatibus adipisci nemo soluta sequi non pariatur laborum sint explicabo. Porro, esse.</p>
+            
             <figure class="figure col-md-3">
                 <img src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" class="figure-img img-fluid rounded-1" alt="tony">
             </figure>
@@ -201,12 +252,30 @@
 
             <!-- SECTION CONSOLE NOW -->
         <section>
+            <div><!--BACKGROUND color--></div>
 
+            <div class="container">        
+                <div class="row h-500 border-3 mb-4">
+                    <div class=" col-6">IMMAGINE
+                            <h1>prova</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, repudiandae recusandae minima officia fuga iure numquam aliquid dicta possimus id aut impedit voluptatem accusantium officiis provident corporis, fugit ex maxime.</p>
+                            <a class="btn btn-md btn-primary" href="#">Acquista ora</a>
+                        </div>
+                    <div class="col-6">IMMAGINE CHE SCOMPARE</div>
+                </div>
+            </div>
         </section>
 
             <!-- SECTION MEDIA -->
-        <section>
+        <section class="container">
+            <div class="row">
+                <h2>sezione social</h2>
+                <div class="border-3 h-100 col-6 col-sm-3">IMMAGINE</div>
+                <div class="border-2 h-100 col-6 col-sm-3">IMMAGINE</div>
+                <div class="border-3 h-100 col-6 col-sm-3">IMMAGINE</div>
+                <div class="border-2 h-100 col-6 col-sm-3">IMMAGINE</div>
 
+            </div>  
         </section>
         
     </main>
