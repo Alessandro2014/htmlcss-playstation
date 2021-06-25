@@ -1,3 +1,7 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .border-1 {
     border: 1px solid red;
 }
@@ -8,7 +12,6 @@
 
 .border-3 {
     border: 1px solid green;
-    background-color: gray;
 }
 
 .h-100 {
@@ -46,11 +49,27 @@
 
 .bg-btt-info {
     background-color: #2D64E6;
-    background-color: #363636;
+    color: white;
 }
 
 .bg-btt-shop {
     background-color: #CD3D0F;
+}
+
+.bg-btt-discount {
+    background-color: #e4ddd9;
+    color: #2D64E6;
+}
+
+
+/* UTILS */
+
+.b-radius10 {
+    border-radius: 10px;
+}
+
+.b-radius20 {
+    border-radius: 20px;
 }
 
 /* HEADER */
@@ -61,15 +80,89 @@
 
 .header-bottom {
     background-color: white;
+    height: 60px;
+
 }
 
 header nav ul li i {
-    line-height: 30px;
+    line-height: 20px;
     vertical-align: middle;
+    color: gray;
 }
+
+/* MAIN */
 
 #hero-1 {
-    background-image: "(../img/)";
+    height: 600px;
+    max-width: 100%;
+    background-image: url("../img/jumbo-bg.png");
+    margin-top: 94px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
+.text-hero-1 {
+    height: 600px;
+}
 
+#hero-2 {
+    height: 500px;
+    max-width: 100%;
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.text-hero-2 {
+    height: 500px;
+}
+
+#section-upgrade {
+    height: 500px;
+    max-width: 100%;
+    background-color: #BEBCBB;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.text-upgrade {
+    height: 500px;
+}
+
+.img-ps-plus {
+    max-height: 500px;
+}
+
+#section-ps-now {
+    height: 500px;
+    max-width: 100%;
+    background-color: #161C3B;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.text-ps-now {
+    height: 500px;
+}
+
+.img-ps-now {
+    max-height: 500px;
+}
+
+            /* prova */
+
+.section-console5 .evidenced-ps5::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: blue;
+    margin-top: 40px;
+}
