@@ -84,12 +84,6 @@
 
 }
 
-header nav ul li i {
-    line-height: 20px;
-    vertical-align: middle;
-    color: gray;
-}
-
 /* MAIN */
 
 /* SECTION 1 */
@@ -171,7 +165,16 @@ header nav ul li i {
     margin-top: 40px;
 }
 
+/* FOOTER */
 
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style-type: none;
+}
 
 /* MIN-WIDTH 1400PX */
 
