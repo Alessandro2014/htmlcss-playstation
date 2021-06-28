@@ -47,7 +47,7 @@
 /* UTILS */
 
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 .b-radius10 {
@@ -78,13 +78,13 @@
 }
 
 #header-bottom li a:hover {
-    color: rgb(66, 66, 255);
+    color: rgb(30, 109, 255);
 }
 
-/* #nav-right .bg-btt-login:hover {
-    border: 3px solid white;
-    border-style: double;
-} */
+.btn-hover-white:hover {
+    box-shadow: inset 0 0 0 2px white;
+    color: white;
+}
 
 /* MAIN */
 
@@ -97,10 +97,9 @@
     background-repeat: no-repeat;
 }
 
-/* #hero-1 a:hover {
-    border: 3px solid white;
-    border-style: ridge;
-} */
+.btn-hover-black:hover {
+    box-shadow: inset 0 0 0 2px black;
+}
 
 .hero .row {
     height: 600px;
@@ -108,9 +107,10 @@
 
 /* SECTION 2 GAMES */
 
-/* #section-games figure img:hover {
-    filter: opacity(0.5);
-} */
+#section-games figure img:hover{
+    transform: translateY(-13px);
+}
+
 
 /* SECTION 3 CONSOLE 5 */
 
@@ -120,6 +120,11 @@
 
 #section-ps5 figure img:hover {
     filter: opacity(1);
+}
+
+#section-ps5 .btn:hover {
+    box-shadow: inset 0 0 0 2px white;
+    color: white;
 }
 
 /* SECTION 4 BANNER  */
@@ -135,6 +140,11 @@
     background-color: #BEBCBB;
 }
 
+.btn-hover-reg:hover {
+    box-shadow: inset 0 0 0 2px #BEBCBB;
+    color: blue;
+}
+
 
 /* SECTION PS NOW */
 
@@ -142,6 +152,9 @@
     background-color: #161C3B;
 }
 
+.btn-hover-now:hover {
+    box-shadow: inset 0 0 0 2px black;
+}
 
  /* SECTION 6 CONSOLE PS-5 */
 
@@ -163,8 +176,13 @@ footer a {
 footer ul {
     list-style-type: none;
 }
+
 footer ul li {
     margin-bottom: 5px;
+}
+
+footer a:hover {
+    color: white;
 }
 
 /* MIN-WIDTH 1400PX */
