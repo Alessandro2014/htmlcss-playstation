@@ -14,11 +14,11 @@
     <header class="position-relative">
 
         <div class="position-fixed top-0 start-0 w-100">
-            <div class="header-top bg-black text-end pe-2">
+            <div id="header-top" class="bg-black text-end pe-2">
                 <img src="./img/sony_logo.svg" alt="" width="80">
             </div>
 
-            <nav class="header-bottom container-fluid navbar navbar-expand-xxl navbar-light bg-white">
+            <nav id="header-bottom" class=" container-fluid navbar navbar-expand-xxl navbar-light bg-white">
                 <a class="navbar-brand" href="#">
                     <img src="./img/play_logo.svg" alt="" width="60" height="48">
                 </a>
@@ -28,30 +28,30 @@
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" aria-current="page" href="#">Giochi <img src="./img/chevron-down-solid.svg" alt="" height="15"></a>
+                            <a class="nav-link" aria-current="page" href="#">Giochi <img src="./img/chevron-down-solid.svg" alt="" height="15"></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">Hardware <img src="./img/chevron-down-solid.svg" alt="" height="15"></a>
+                            <a class="nav-link " href="#">Hardware <img src="./img/chevron-down-solid.svg" alt="" height="15"></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#" tabindex="-1" aria-disabled="true">Servizi <img src="./img/chevron-down-solid.svg" alt="" height="15"></a>
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Servizi <img src="./img/chevron-down-solid.svg" alt="" height="15"></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" aria-current="page" href="#">Novità <img src="./img/chevron-down-solid.svg" alt="" height="15"></a>
+                            <a class="nav-link" aria-current="page" href="#">Novità <img src="./img/chevron-down-solid.svg" alt="" height="15"></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">Fai acquisti <img src="./img/chevron-down-solid.svg" alt="" height="15"></a>
+                            <a class="nav-link" href="#">Fai acquisti <img src="./img/chevron-down-solid.svg" alt="" height="15"></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#" tabindex="-1" aria-disabled="true">Supporto <img src="./img/chevron-down-solid.svg" alt="" height="15"></a>
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Supporto <img src="./img/chevron-down-solid.svg" alt="" height="15"></a>
                         </li>
                     </ul>
                 </div>
 
-                <div class="collapse navbar-collapse">
+                <div id="nav-right" class="collapse navbar-collapse">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" aria-current="page" href="#">My PlayStation <img src="./img/chevron-down-solid.svg" alt="" height="15"></i></a>
+                            <a class="nav-link" aria-current="page" href="#">My PlayStation <img src="./img/chevron-down-solid.svg" alt="" height="15"></i></a>
                         </li>
                         <li class="nav-item">
                             <a class="btn rounded-pill bg-btt-login text-white mx-2" href="#">Accedi</a>
@@ -66,10 +66,10 @@
     </header>
     
     <main>
-            <!-- SECTION HERO 1 -->
+            <!-- SECTION 1 HERO -->
         <section>
             <div id="hero-1" class="hero">
-                <div class="container position-relative">        
+                <div class="container">        
                         <div class="row align-items-end">
                             <div class="col-xxl-5 pb-5 text-white">                            
                                 <img class="img-fluid" src="./img/returnal-hero-banner-logo.png" alt="returnal">
@@ -82,9 +82,9 @@
             </div>
         </section>
 
-            <!-- SECTION GAMES 1 -->
-        <section class="container">
-            <div class="row mt-3 section-games">
+            <!-- SECTION 2 GAMES -->
+        <section id="section-games" class="container">
+            <div class="row mt-5 section-games">
                 <figure class="col-6 col-sm-4 col-lg-2 evidenced">
                     <img class="img-fluid b-radius10" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="returnal-listing">
                 </figure>
@@ -106,8 +106,9 @@
             </div>
         </section>
 
-            <!-- SECTION CONSOLE 5 -->
-        <section>
+            <!-- SECTION 3 CONSOLE -->
+
+        <section id="section-ps5">
             <div class="text-center">
                 <p class="text-primary text-uppercase fs-5 mt-5 mb-0">play has no limits</p>
                 <h2 class="fs-1">Ecco la PlayStation 5</h2>
@@ -120,34 +121,36 @@
                         <p class="text-secondary fs-5">Sperimenta la nuova generazione di incredibili giochi PlayStation.</p>
                         <a class="btn btn-md rounded-pill bg-btt-info mt-3" href="#">Maggiori informazioni</a>
                     </div>
-                    <div class="col-12 col-md-7"><img class="img-fluid" src="./img/playstation-5-thumb.png" alt=""></div>
+                    <div class="col-12 col-md-7">
+                        <img class="img-fluid" src="./img/playstation-5-thumb.png" alt="">
+                    </div>
 
                     <figure class="figure col-4 col-md-2">
                         <img src="./img/playstation-5-thumb.png" class="figure-img img-fluid" alt="playstation-5">
                         <figcaption class="figure-caption d-none d-md-inline">Console PS5</figcaption>
                         <span class=" evidenced-ps5"></span>
                     </figure>
-                    <figure class="figure offset-md-1 col-4 col-md-2 mx-md-auto">
-                        <img src="./img/joypad-thumb.png" class="figure-img img-fluid" alt="joypad">
+                    <figure class="offset-md-1 col-4 col-md-2 mx-md-auto figure">
+                        <img src="./img/joypad-thumb.png" class="figure-img img-fluid img-opacity" alt="joypad">
                         <figcaption class="figure-caption d-none d-md-inline">Controller wireless DualSense<i class="bi bi-badge-tm-fill"></i></figcaption>
                     </figure>
-                    <figure class="figure col-4 col-md-2">
-                        <img src="./img/headset-thumb.png" class="figure-img img-fluid" alt="headset-thumb">
+                    <figure class="col-4 col-md-2 figure">
+                        <img src="./img/headset-thumb.png" class="figure-img img-fluid img-opacity" alt="headset-thumb">
                         <figcaption class="figure-caption d-none d-md-inline">Cuffie wireless con microfono PULSE 3<i class="bi bi-badge-tm-fill"></i></figcaption>
                     </figure>
-                    <figure class="figure offset-md-1 col-4 col-md-2 mx-md-auto">
-                        <img src="./img/remote-thumb.png" class="figure-img img-fluid" alt="remote-thumb">
+                    <figure class="offset-md-1 col-4 col-md-2 mx-md-auto figure">
+                        <img src="./img/remote-thumb.png" class="figure-img img-fluid  img-opacity" alt="remote-thumb">
                         <figcaption class="figure-caption d-none d-md-inline">Telecomando Media</figcaption>
                     </figure>
-                    <figure class="figure col-4 col-md-2">
-                        <img src="./img/camera-thumb.jpg" class="figure-img img-fluid" alt="camera-thumb">
+                    <figure class="col-4 col-md-2 figure">
+                        <img src="./img/camera-thumb.jpg" class="figure-img img-fluid img-opacity" alt="camera-thumb">
                         <figcaption class="figure-caption d-none d-md-inline">Telecamera HD</figcaption>
                     </figure>
                 </div>
             </div>
         </section>
 
-            <!-- SECTION HERO 2 -->
+            <!-- SECTION 4 BANNER-->
             <section>
                 <div id="hero-2" class="hero">
                     <div class="container">        
@@ -164,9 +167,9 @@
                 </div>
             </section>
 
-            <!-- SECTION GAMES 2 -->
+            <!-- SECTION 5 GAMES -->
         <section class="bg-section-games">
-            <div class="container">
+            <div id="section-games" class="container">
                 <div class="row text-white">
                     <div class="pt-5 pb-2">
                         <h3 class="fs-2 pb-3">Nuove uscite</h3>
@@ -225,8 +228,7 @@
             </div>
         </section>
 
-            <!-- SECTION CONSOLE 4-->
-
+            <!-- SECTION 6 CONSOLE PS-5-->
 
         <section>
             <div class="container">
@@ -265,7 +267,7 @@
             </div>
         </section>
 
-            <!-- SECTION UPGRADE -->
+            <!-- SECTION 7 UPGRADE -->
         
         <section>
             <div id="section-upgrade">
@@ -287,7 +289,7 @@
 
 
 
-            <!-- SECTION DISCOUNT -->
+            <!-- SECTION 8 DISCOUNT -->
         <section>
             <div class="container my-5">
                 <div class="row">
@@ -308,7 +310,7 @@
             </div>
         </section>
 
-            <!-- SECTION CONSOLE NOW -->
+            <!-- SECTION PS NOW -->
             <section>
                 <div id="section-ps-now">
                     <div class="container">        
@@ -352,7 +354,7 @@
 
                 <!-- FOOTER -->
     <footer class="bg-footer text-white">
-        <div class="container py-6">
+        <div class="container mt-3 py-6">
             <div class="row">
                 <div class="col-12 col-xxl-5 logo-footer mb-5">
                     <div class="pb-5">
@@ -363,7 +365,7 @@
                         <span>Country/Region: Italy</span> 
                     </div>
                 </div>
-                    <ul class="col-sm-12 col-md-4 col-xxl-3 align-self-center fs-6 py-1">
+                    <ul class="col-sm-12 offset-md-1 col-md-4 offset-xxl-0 col-xxl-3 align-self-center fs-6 py-1">
                         <li><a href="#">Supporto</a></li>
                         <li><a href="#">Informativa sulla privacy e sui cookie</a></li>
                         <li><a href="#">Termini di utilizzo del sito Web</a></li>
@@ -372,7 +374,7 @@
                         <li><a href="#">Chi siamo</a></li>
                         <li><a href="#">PlayStation e l'ambiente</a></li>
                     </ul>
-                    <ul class="col-sm-12 col-md-5 col-xxl-3 fs-6 py-1">
+                    <ul class="col-sm-12 col-md-4 col-xxl-3 fs-6 py-1">
                         <li><a href="#">Termini di servizio di PSN</a></li>
                         <li><a href="#">Termini di annullamento del PS Store</a></li>
                         <li><a href="#">Avvertenze per la salute</a></li>
