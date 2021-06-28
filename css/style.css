@@ -92,8 +92,9 @@ header nav ul li i {
 
 /* MAIN */
 
+/* SECTION 1 */
 #hero-1 {
-    height: 600px;
+    height: 530px;
     max-width: 100%;
     background-image: url("../img/jumbo-bg.png");
     margin-top: 94px;
@@ -104,11 +105,12 @@ header nav ul li i {
 }
 
 .text-hero-1 {
-    height: 600px;
+    height: 530px;
 }
 
+/* SECTION 2  */
 #hero-2 {
-    height: 500px;
+    height: 530px;
     max-width: 100%;
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-size: cover;
@@ -118,11 +120,11 @@ header nav ul li i {
 }
 
 .text-hero-2 {
-    height: 500px;
+    height: 530px;
 }
 
 #section-upgrade {
-    height: 500px;
+    height: 530px;
     max-width: 100%;
     background-color: #BEBCBB;
     background-size: cover;
@@ -132,12 +134,14 @@ header nav ul li i {
 }
 
 .text-upgrade {
-    height: 500px;
+    height: 530px;
 }
 
 .img-ps-plus {
-    max-height: 500px;
+    max-height: 530px;
 }
+
+/* SECTION UPGRADE */
 
 #section-ps-now {
     height: 500px;
@@ -157,7 +161,7 @@ header nav ul li i {
     max-height: 500px;
 }
 
-            /* prova */
+ /* SECTION CONSOLE 5 */
 
 .section-console5 .evidenced-ps5::after {
     content: "";
@@ -165,4 +169,22 @@ header nav ul li i {
     height: 2px;
     background-color: blue;
     margin-top: 40px;
+}
+
+
+
+/* MIN-WIDTH 1400PX */
+
+@media screen and (min-width: 1400px) {
+   .content-w-45 {
+    max-width: 45%;
+   } 
+
+   .content-w-35 {
+    max-width: 35%;
+   }
+
+   .content-w-20 {
+    max-width: 20%;
+   }
 }
