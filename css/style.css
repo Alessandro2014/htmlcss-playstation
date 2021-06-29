@@ -62,6 +62,10 @@
     padding: 5rem 0 5rem 0;
 }
 
+.z-index {
+    z-index: 1;
+}
+
 /* HEADER */
 
 #header-top img {
@@ -108,9 +112,15 @@
 /* SECTION 2 GAMES */
 
 #section-games figure img:hover{
-    transform: translateY(-13px);
+    transform: translateY(-13px) ;
+    transition: all 0.7s;
 }
 
+#section-games .evidenced {
+    outline-offset: 0.3rem;
+    outline: 5px solid rgb(30, 109, 255);
+    outline-style: auto;
+}
 
 /* SECTION 3 CONSOLE 5 */
 
