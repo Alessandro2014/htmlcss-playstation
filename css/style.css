@@ -117,8 +117,8 @@
 }
 
 #section-games .evidenced {
-    outline-offset: 0.3rem;
-    outline: 5px solid rgb(30, 109, 255);
+    outline-offset: 0.2rem;
+    outline: 2px solid rgb(30, 109, 255);
     outline-style: auto;
 }
 
@@ -128,7 +128,7 @@
     filter: opacity(0.5);
 }
 
-#section-ps5 figure img:hover {
+#section-ps5 figure:hover {
     filter: opacity(1);
 }
 
