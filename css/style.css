@@ -93,7 +93,7 @@
 /* MAIN */
 
 /* SECTION 1 */
-#hero-1 {
+#hero-primary {
     background-image: url("../img/jumbo-bg.png");
     margin-top: 94px;
     background-size: cover;
@@ -138,7 +138,7 @@
 }
 
 /* SECTION 4 BANNER  */
-#hero-2 {
+#hero-new-play {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-size: cover;
     background-position: center;
